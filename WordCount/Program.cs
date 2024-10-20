@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bir cümle giriniz:"); //" yarın evi temizledikten sonra markete gideceğim "
+            Console.WriteLine("Bir cümle giriniz:"); //" yarın evi temizledikten sonra markete gideceğim " 
             string sentence = Console.ReadLine();
             string sentenceTrim = sentence.Trim();
             string[] data = sentenceTrim.Split(' ');
